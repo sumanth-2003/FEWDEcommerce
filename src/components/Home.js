@@ -4,7 +4,6 @@ import Navbar from './Navbar'
 const Home = () => {
     return (
         <>
-            <Navbar />
             <div>
                 <div>
                     <div className="container">
@@ -16,21 +15,21 @@ const Home = () => {
                             </div>
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
-                                    <img src="https://source.unsplash.com/random/900x400/?grocery" className="d-block w-100" alt="..." />
+                                    <img src="https://picsum.photos/900/400" className="d-block w-100" alt="..." />
                                     <div className="carousel-caption d-none d-md-block">
                                         <h5>Fresh Groceries Delivered</h5>
                                         <p>Explore a wide range of fresh groceries delivered straight to your door with the convenience and quality you can trust.</p>
                                     </div>
                                 </div>
                                 <div className="carousel-item">
-                                    <img src="https://source.unsplash.com/random/900x400/?products" className="d-block w-100" alt="..." />
+                                    <img src="https://picsum.photos/900/400" className="d-block w-100" alt="..." />
                                     <div className="carousel-caption d-none d-md-block">
                                         <h5>Discover More Products</h5>
                                         <p>From tech gadgets to home essentials, our expansive product selection has everything you need to enhance your lifestyle.</p>
                                     </div>
                                 </div>
                                 <div className="carousel-item">
-                                    <img src="https://source.unsplash.com/random/900x400/?delivery" className="d-block w-100" alt="..." />
+                                    <img src="https://picsum.photos/900/400" className="d-block w-100" alt="..." />
                                     <div className="carousel-caption d-none d-md-block">
                                         <h5>Quick Delivery Services</h5>
                                         <p>Experience lightning-fast delivery. Your comfort, our priority — get your orders faster than ever before.</p>

@@ -64,7 +64,7 @@ const ProductsList = () => {
     const pages = Array.from({ length: totalPages }, (_, index) => index + 1);
 
     return (
-        <> <Navbar />
+        <>
             <div className="container mt-3">
                 <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
                     {currentProducts.map(product => (
